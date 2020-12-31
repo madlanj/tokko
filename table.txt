@@ -1,0 +1,48 @@
+Table users
+- Id
+- Name
+- Email
+- Password
+- Address
+- Phone
+
+Table products
+- Id
+- Name
+- Slug
+- Description
+- Image
+- Qty
+- Price
+
+Table categories
+- Id
+- Name
+- Slug
+
+Table category_product
+- category_id
+- product_id
+
+Table cart ??? Session
+Table orders
+- Id
+- User_id
+- User_name
+- User_phone
+- User_address
+- Courier
+- Shiping_cost
+- Total
+
+Table order_details
+- Id
+- Order_id
+- product_id
+- Qty
+- price
+- subtotal
+
+-- ROLES PERMISSION / AUTHORIZATION -- (PACKAGE LARAVEL-PERMISSION)
+Table Roles
+Table Permission
